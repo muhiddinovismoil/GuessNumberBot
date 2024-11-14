@@ -1,0 +1,20 @@
+{
+    "name": "tests",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bot.js",
+        "dev":"nodemon bot.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "grammy": "^1.31.3",
+        "nodemon": "^3.1.7"
+    }
+}
